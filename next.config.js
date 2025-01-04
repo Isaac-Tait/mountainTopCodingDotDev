@@ -1,7 +1,6 @@
-import { withContentlayer } from 'next-contentlayer2'
-import withBundleAnalyzer from '@next/bundle-analyzer'
+const { withContentlayer } = require('next-contentlayer2')
 
-const bundleAnalyzer = withBundleAnalyzer({
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 

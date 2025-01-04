@@ -48,6 +48,7 @@ export default [
     },
 
     rules: {
+      '@typescript-eslint/no-require-imports': 'off',
       'prettier/prettier': 'error',
       'react/react-in-jsx-scope': 'off',
 
