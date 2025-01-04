@@ -5,7 +5,7 @@ const siteMetadata = {
   author: 'Isaac Tait',
   headerTitle: 'JAMstack developer portfolio',
   description:
-    'Isaac Tait - normative ideology challenging, vegan, activist, affirming, & currently deconstructing',
+    'Isaac Tait - normative ideology challenging, Buddhist, activist, queer, & a happy exvangelical',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://mountaintopcoding.dev',
