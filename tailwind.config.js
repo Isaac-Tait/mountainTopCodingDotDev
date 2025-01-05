@@ -27,6 +27,13 @@ module.exports = {
       colors: {
         primary: colors.pink,
         gray: colors.gray,
+        lime: {
+          700: '#b6d554',
+        },
+        purple: {
+          700: '#7354D5',
+          800: '#3F2888',
+        },
       },
       zIndex: {
         60: '60',

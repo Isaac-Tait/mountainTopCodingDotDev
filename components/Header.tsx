@@ -8,7 +8,8 @@ import ThemeSwitch from './ThemeSwitch'
 import SearchButton from './SearchButton'
 
 const Header = () => {
-  let headerClass = 'flex items-center w-full bg-gray-200 dark:bg-gray-950 justify-between py-10'
+  let headerClass =
+    'flex items-center w-full bg-purple-800 dark:bg-gray-950 justify-between py-10 rounded-b-lg px-2'
   if (siteMetadata.stickyNav) {
     headerClass += ' sticky top-0 z-50'
   }
@@ -41,7 +42,7 @@ const Header = () => {
               <Link
                 key={link.title}
                 href={link.href}
-                className="block font-medium text-gray-900 hover:text-primary-500 dark:text-gray-100 dark:hover:text-primary-400"
+                className="block font-medium text-lime-700 hover:text-primary-500 dark:text-gray-100 dark:hover:text-primary-400"
               >
                 {link.title}
               </Link>
