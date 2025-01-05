@@ -9,15 +9,14 @@ const MAX_DISPLAY = 5
 export default function Home({ posts }) {
   return (
     <>
-      <div className="heropattern-topography-lime-700">
-        <div className="flex h-full flex-wrap content-center">
-          <p className="mx-auto w-1/2 justify-center text-xl font-semibold md:text-5xl">
-            Hello{' '}
-            <span role="img" aria-label="waving hand">
-              &#128075;
-            </span>{' '}
-            My name is Isaac Tait. Welcome to my portfolio. I am an activist web developer who loves
-            the outdoors.
+      <div>
+        <div className="mt-6 flex flex-wrap content-center pt-2 font-semibold">
+          <p className="first-letter:float-left first-letter:mr-3 first-letter:text-7xl first-letter:font-bold first-letter:text-purple-900 first-line:uppercase first-line:tracking-widest first-line:text-purple-900">
+            From Marine infantryman to front-end web developer, my journey has been shaped by a
+            desire to make a difference. Today, I combine my passion for activism, writing, &&
+            coding to craft digital experiences that drive meaningful change. I believe in the power
+            of technology to inspire, empower, and create change. When I&#39;m not coding,
+            you&#39;ll find me skiing, cycling, or working on initiatives to support my community.
           </p>
         </div>
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
@@ -40,7 +39,7 @@ export default function Home({ posts }) {
                   <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
                     <dl>
                       <dt className="sr-only">Published on</dt>
-                      <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
+                      <dd className="text-base font-medium leading-6 text-gray-600 dark:text-gray-400">
                         <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
                       </dd>
                     </dl>
@@ -50,7 +49,7 @@ export default function Home({ posts }) {
                           <h2 className="text-2xl font-bold leading-8 tracking-tight">
                             <Link
                               href={`/blog/${slug}`}
-                              className="text-gray-900 dark:text-gray-100"
+                              className="text-purple-900 dark:text-gray-100"
                             >
                               {title}
                             </Link>
@@ -61,7 +60,7 @@ export default function Home({ posts }) {
                             ))}
                           </div>
                         </div>
-                        <div className="prose max-w-none text-gray-500 dark:text-gray-400">
+                        <div className="prose max-w-none text-gray-600 dark:text-gray-400">
                           {summary}
                         </div>
                       </div>
