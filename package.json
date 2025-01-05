@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": ">=16"
+    "node": "^20.0.0"
   },
   "name": "tailwind-nextjs-starter-blog",
   "version": "2.3.0",
