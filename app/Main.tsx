@@ -15,9 +15,9 @@ export default function Home({ posts }) {
             Hello{' '}
             <span role="img" aria-label="waving hand">
               &#128075;
-            </span>
-            ,&nbsp;and welcome to my portfolio. My name is Isaac Tait and I am an activist web
-            developer who loves the outdoors.
+            </span>{' '}
+            My name is Isaac Tait. Welcome to my portfolio. I am an activist web developer who loves
+            the outdoors.
           </p>
         </div>
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
