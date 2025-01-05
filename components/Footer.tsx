@@ -1,6 +1,5 @@
 import Link from './Link'
 import siteMetadata from '@/data/siteMetadata'
-import SocialIcon from '@/components/social-icons'
 
 export default function Footer() {
   return (
@@ -12,11 +11,7 @@ export default function Footer() {
           <div className="hidden text-xs md:block md:text-base">{` Built with TailwindCSS && NextJS `}</div>
           <div className="hidden md:block">{` - `}</div>
           <p className="text-xs md:text-base">Made with 🏳️‍🌈 by</p>
-          <Link
-            href="https://github.com/Isaac-Tait/tailwind-css-starter-blog"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <Link href={siteMetadata.siteRepo} target="_blank" rel="noreferrer">
             <p className="px-1 text-xs text-purple-900 underline underline-offset-4 hover:rounded-lg hover:bg-purple-900 hover:text-white md:text-base">
               {siteMetadata.title}
             </p>
