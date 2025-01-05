@@ -11,7 +11,7 @@ export default function Home({ posts }) {
     <>
       <div>
         <div className="mt-6 flex flex-wrap content-center pt-2 font-semibold">
-          <p className="first-letter:float-left first-letter:mr-3 first-letter:text-7xl first-letter:font-bold first-letter:text-purple-900 first-line:uppercase first-line:tracking-widest first-line:text-purple-900">
+          <p className="first-letter:float-left first-letter:mr-3 first-letter:text-7xl first-letter:font-bold first-letter:text-purple-900 first-line:uppercase first-line:tracking-widest first-line:text-purple-900 dark:first-letter:text-pink-500 dark:first-line:text-pink-500">
             From Marine infantryman to front-end web developer, my journey has been shaped by a
             desire to make a difference. Today, I combine my passion for activism, writing, &&
             coding to craft digital experiences that drive meaningful change. I believe in the power
