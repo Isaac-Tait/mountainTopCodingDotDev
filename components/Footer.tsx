@@ -4,7 +4,7 @@ import SocialIcon from '@/components/social-icons'
 
 export default function Footer() {
   return (
-    <footer className="flex items-center justify-center bg-blue-200">
+    <footer className="flex items-center justify-center">
       <div className="mt-1 flex flex-col items-center">
         <div className="mb-2 flex justify-between space-x-2 text-sm text-gray-500 dark:text-gray-400">
           <div className="text-xs md:text-base">{`© 2019 - ${new Date().getFullYear()}`}</div>
