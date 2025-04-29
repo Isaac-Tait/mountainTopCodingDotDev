@@ -58,7 +58,7 @@ const projectsData: Project[] = [
     description:
       'I read the first book in the series and thought it would be cool to build a fan site. The site may look ugly but I was trying to stay true to the book.',
     imgSrc: '/static/images/night.jpg',
-    href: 'https://starshipfor.sale/',
+    href: 'https://starship-for-sale-git-main-isaactait.vercel.app/',
   },
   {
     title: 'The OG mountainTopCoding(🏔);',
@@ -83,9 +83,9 @@ const projectsData: Project[] = [
   {
     title: 'Exploring and Pondering',
     description:
-      'A long time coming - I finally am breaking free of thirty years of evangelical fundamentalist indoctrination and making up my own mind about life and spirituality.',
+      '[ARCHIVED] A long time coming - I finally am breaking free of thirty years of evangelical fundamentalist indoctrination and making up my own mind about life and spirituality.',
     imgSrc: '/static/images/beach.jpg',
-    href: 'https://eandp.cc',
+    href: 'https://res.cloudinary.com/mountaintopcoding-127956/image/upload/v1745956371/mountainTopCoding/E_P_Screenshot_aznybd.png',
   },
 ]
 
