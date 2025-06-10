@@ -43,7 +43,7 @@ const projectsData: Project[] = [
     title: 'Royal Ridges',
     description:
       'My brother is the Executive Director of Royal Ridges Retreat. He desperately needed a new site so I built him this one initially using GatsbyJS but when they went belly up I switched it over to NextJS.',
-    imgSrc: '/static/images/royalRidges.jng',
+    imgSrc: '/static/images/royalRidges.jpg',
     href: 'https://royalridges.org/',
   },
   {
